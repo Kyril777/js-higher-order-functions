@@ -13,9 +13,9 @@ const companies = [
 ];
 
 
-const description = companies.map(
+const history = companies.map(
   company =>
     `${company.name} was founded in ${company.founded}`
 );
 
-description.forEach(d => output(d));
+history.forEach(d => output(d));
