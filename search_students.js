@@ -1,3 +1,5 @@
+/* Search for students using the filter() method. */
+
 const garibaldi = new Student('Garibaldi', 'June',
      '', 'Rutgers');
 garibaldi.address = new Address('US');
