@@ -10,5 +10,3 @@ const filter = words => {
 };
 
 filter(['duck', 'free', 'dues', 'mud']);
-
-// mud
