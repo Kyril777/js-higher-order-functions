@@ -1,4 +1,4 @@
-/* The filer() function accepts two functions: an array and a function. */ 
+/* The filTer() function accepts two functions: an array and a function. */ 
 
 checkCountry = ({name, country}) => country === 'US';
 
