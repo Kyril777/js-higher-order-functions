@@ -17,7 +17,7 @@ const user = [
   }
 ]
 
-function filter(arr,fn) {
+const filter = (arr,fn) => {
 
     let newArr = [];
     for(var i=0;i< arr.length;i++){
