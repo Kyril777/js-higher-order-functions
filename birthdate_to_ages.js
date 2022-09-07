@@ -5,3 +5,10 @@ let determineAges = () => {
   let ages = birthYear.map(year => 2022 - year + ' ') 
   return ages
 }
+
+/* Using consts instead of one functon. */
+
+const birthYear = [1975, 1997, 2002, 1995, 1985];
+const ages = birthYear.map(year => 2022 - year);
+
+console.log(ages);
