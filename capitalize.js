@@ -8,3 +8,9 @@ let fruits = ["apple", "orange", "cherry"
 
 /* Another method. */
 const names = ['David', 'James', 'Beko'].map(name => name.toUpperCase());
+
+/* Additional method. */
+let array = ['hammer', 'wrench', 'screwdriver'];
+let capitalize = array.map(function(x) { return x.toUpperCase(); });
+console.log(capitalize);
+
