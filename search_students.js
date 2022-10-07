@@ -23,7 +23,7 @@ let selector = (country, school) => {
      };
 }
 
-let searchStydents = function(friends, selector) {
+let searchStudents = function(friends, selector) {
     return friends.filter(selector);
 };
 
