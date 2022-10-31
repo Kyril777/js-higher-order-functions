@@ -1,6 +1,6 @@
 /* Prefix words with underscore for each word. */
 
-const  underscoreBeforeTool = (entry) => {
+const  underscoreBeforeWord = (entry) => {
   return `_${entry}`
 }
 
