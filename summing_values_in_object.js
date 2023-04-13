@@ -8,3 +8,16 @@ let total = obj.reduce(function (accumulator, currentValue) {
 }, init)
 
 console.log(total)
+
+
+/* Another exampke. */
+let initialValue = 0
+let obj = [{n: 7}, {n: 11}, {n: 15}, {n: 30}, {n: 35}]
+
+let sum = obj.reduce(function (accumulator, currentValue) {
+
+    return accumulator + currentValue.n
+
+}, initialValue)
+
+console.log(sum)
