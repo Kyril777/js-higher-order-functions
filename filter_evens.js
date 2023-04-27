@@ -5,7 +5,7 @@ const even = numbers.filter((numb) => numb % 2 === 0)
 
 console.log(even) // 78, 6, 714, 12, 500
 
-
+/* An older appraoch. */
 const array = [-100, -365, -42, -8, 0, 13, 99];
 
 const evens = array.filter((x) => {
