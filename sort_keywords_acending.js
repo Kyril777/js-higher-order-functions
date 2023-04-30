@@ -12,7 +12,7 @@ const keywords = [
     {
         key: 21,
         value: 'Omaha',
-    }
+    },
     {
         key: 23,
         value: 'federal',
