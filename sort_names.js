@@ -8,7 +8,7 @@ const names = [
   {firstName: "Brenda", lastName: "Lee"}
 ];
 
-name.sort((a, b)=>{
+names.sort((a, b)=>{
   const x = a.lastName;
   const y = b.lastName;
   if (x>y) return 1;
