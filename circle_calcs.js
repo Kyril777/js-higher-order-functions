@@ -1,22 +1,31 @@
-const radius = [];
+/* Create a reusable function that accepts the radius values and logic functions as parameters.*/
 
-function area = function(radius){
-     return Math.PI * radius * radius;
+const radius = [2, 4, 6, 6];
+
+//  Logic to calculate area.
+const area = function(radius){
+    return Math.PI * radius * radius;
 }
 
-function circumference = function(radius){
-     return 2 * Math.PI * radius;
+// Logic to calculate the diameter.
+const diameter = function(radius){
+    return 2 * radius;
 }
 
-function calculate(radiusArr, logic) {
-  const output = [];
-  for (let i = 0; I < radiusArr.length; ++i) {
-    output.push(logic(radiusArr[i]));
-  }
-  return output;
+// Logic to calculate the circumference.
+const circumference = function(radius){
+    return Math.PI * 2 * radius;
 }
 
-console.log(calculate(area, radius));
-console.log(calculate(circumference, radius));
-console.log(calculate(other, radius));
-....
+// Function to calculate area a
+const calculate = function(radius, logic){ 
+    const output = [];
+    for(let i = 0; i < radius.length; i++){
+        output.push(logic(radius[i]))
+    }
+    return output;
+}
+
+console.log(calculate(radius, area));
+console.log(calculate(radius, diameter));
+console.log(calculate(radius, circumference));
